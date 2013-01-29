@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script type="text/javascript" src="jspdf/libs/base64.js"></script>
+	<script type="text/javascript" src="jspdf/libs/sprintf.js"></script>
+	<script type="text/javascript" src="jspdf/libs/jspdf.js"></script>
+	<script>
+	function CreatePDF(){
+		var doc = new jsPDF();
+		doc.text(20,20,'hello world!');
+		doc.output('datauri');
+		//var out = doc.output();
+		//var url = new 'data:application/pdf;based64,' + Base64.encode(out);
+		//document.location.href=url;
+	
+	
+	}
+	</script>
+
+</head>
+
+<body>
+<input type="button" onclick="CreatePDF()" value="create"/>
+<a href="javascript:CreatePDF()">run code</a>
+
+</body>
+
+
+</html>
