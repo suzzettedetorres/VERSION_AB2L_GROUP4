@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Main</title>
+<title>ADD Applicant</title>
 <link href="style.1.2.1.css" media="screen" rel="stylesheet" type="text/css" />
-<link href="Main.css" media="screen" rel="stylesheet" type="text/css" />
+<link href="subPages.css" media="screen" rel="stylesheet" type="text/css" />
 
 	<link rel="stylesheet" href="../themes/default/default.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="../themes/light/light.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="../themes/dark/dark.css" type="text/css" media="screen" />
    	<link rel="stylesheet" href="../themes/bar/bar.css" type="text/css" media="screen" />
     <link rel="stylesheet" href="../nivo-slider.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
    
-   <!--Clock code-->
+   
+	
+<!--Clock code-->
     <script type="text/javascript">
 	function startTime()
 	{
@@ -49,43 +50,20 @@
 </head>
 
 <body onload="startTime()">	
-<section>
-	<div id="navigation">
-    	<div id="div1"> 
-                <div class="tile bg-color-red" id="logOut">
-                		<a href="Login.php"><img src="img/invisible-LINK.png" /></a>
-                </div>
-                <div class="tile bg-color-blue" id="addApplicant">
-                	<a href="addApplicant.php"><img src="img/invisible-LINK.png" /></a>
-                </div>
-            	<div class="tile bg-color-blue" id="genReport">
-                	<a href="generateReport.php"><img src="img/invisible-LINK.png" /></a>
-                </div>
-           		<div class="tile bg-color-blue" id="sendEmail">
-                	<a href="sendEmail.php"><img src="img/invisible-LINK.png" /></a>
-                </div>
-    	</div>
-        <div id="div2">
-        	<div class="tile double-vertical bg-color-red" id="clocktile">
+	<div id="naviSub">
+    	<div id="half1">
+            <div class="tile bg-color-red" id="logOut">
+                <a href="Login.php"><img src="img/invisible-LINK.png" /></a>
+            </div>
+            <div class="tile bg-color-green" id="home">
+                <a href="Main.php"><img src="img/invisible-LINK.png" /></a>
+            </div>
+        </div>
+    	<div class="tile double-vertical bg-color-red" id="clocktile">
             <div id="clock"></div>
-            </div>
         </div>
-        <div id="div3">        	
-        	<div class="tile double double-vertical bg-color-greenDark" id="manageResident">
-            	<a href="manageResident.php"><img src="img/invisible-LINK.png" /></a>
-            </div>
-        </div>
-        <div id="div4">        	
-            <div class="tile bg-color-greenLight" id="search">
-            	<a href="#"><img src="img/invisible-LINK.png" /></a>
-            </div>
-           	<div class="tile bg-color-blue" id="remove">
-            	<a href="#"><img src="img/invisible-LINK.png" /></a>
-                </div>
-        </div>
-    </div>
-    <div id="Main">
-        <div id="slide">
+        <div class="tile double bg-color-blue" id="slide">
+           <div id="slide">
         	 <div id="wrapper">        
                 <div class="slider-wrapper theme-default">
                       <div id="slider" class="nivoSlider">
@@ -97,7 +75,7 @@
                 </div>
         
             </div>
-            <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
+           <script type="text/javascript" src="scripts/jquery-1.7.1.min.js"></script>
             <script type="text/javascript" src="../jquery.nivo.slider.js"></script>
             <script type="text/javascript">
             $(window).load(function() {
@@ -105,13 +83,25 @@
             });
             </script>
         </div>
-         <div class="fg-color-white" id="title">Women's Residence Hall Dormers Management System</div>
-    	<div id="banner">This web-based database management system for Women's Residence Hall, one of the dormitories in the University of the Philippines Los Baños will keep track of the records and data of the dormers including residents' personal information, contact details, payment records, reservation records, violation records, and records on usage of furniture, appliances, equipment and other resources.</div>
+        </div>
+        <div class="tile bg-color-greenDark" id="manageResident">
+           	<a href="manageResident.php"><img src="img/invisible-LINK.png" /></a>
+        </div>
+          <div class="tile bg-color-greenLight" id="search">
+           	<a href="#"><img src="img/invisible-LINK.png" /></a>
+        </div>
     </div>
-</section>
-<footer>
-	(C)2013 <a class="link link-blue" href="#/">cs128 - Group 4</a>
-</footer>
+    <div id="content">
+    	<header>
+            <h1>Reports</h1>
+        </header>
+        <section>
+        </section>
+        <footer>
+            (C)2013 <a class="link link-blue" href="#/">cs128 - Group 4</a>
+        </footer>
+    </div>
+
 </body>
 
 </html>
@@ -126,7 +116,4 @@ http://simoborto.altervista.org
 https://uho.uplb.edu.ph/index.php
 http://danielrichardeviant.deviantart.com/
 http://dev7studios.com/
-http://stackoverflow.com/questions/4904667/html-how-do-i-insert-dynamic-date-in-webpage
-http://www.w3schools.com/js/default.asp
-
 -->
