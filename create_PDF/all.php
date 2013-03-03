@@ -36,7 +36,7 @@
 			}
 			if($srcount>1)
 			echo $srcount, ' Seniors','<br/>';
-			else if($srcount==1) echo $count, ' Senior','<br/>';
+			else if($srcount==1) echo $srcount, ' Senior','<br/>';
 			else echo 'No Senior';
 		?>
 		<form name="form1" action = "javascript:exportToPDF()">
@@ -76,9 +76,9 @@
 				i++;
 				y=y+10;
 				doc.text(20, y, i.toString()+".");
-				doc.text(27, y, studnum+"  " + name);
+				doc.text(27, y, studnum+"     " + name);
 				
-				if(i==30){
+				if(y>=280){
 					doc.addPage();
 					y=30;
 					doc.setFontSize(16);
@@ -106,9 +106,9 @@
 				i++;
 				y=y+10;
 				doc.text(20, y, i.toString()+".");
-				doc.text(27, y, studnum+"  " + name);
+				doc.text(27, y, studnum+"     " + name);
 				
-				if(i==30){
+				if(y>=280){
 					doc.addPage();
 					y=30;
 					doc.setFontSize(16);
@@ -131,9 +131,9 @@
 				i++;
 				y=y+10;
 				doc.text(20, y, i.toString()+".");
-				doc.text(27, y, studnum+"  " + name);
+				doc.text(27, y, studnum+"     " + name);
 				
-				if(i==30){
+				if(y>=280){
 					doc.addPage();
 					y=30;
 					doc.setFontSize(16);
