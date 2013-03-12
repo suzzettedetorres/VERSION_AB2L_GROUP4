@@ -153,22 +153,22 @@ body {
 	background: url(img/manageResident_hover.png);
 }
 
-#search
+#room
 {
-	background: url(img/Search.png);
+	background: url(img/manageDorm.png);
 }
-#search:hover
+#room:hover
 {
-	background: url(img/Search_hover.png);
+	background: url(img/manageDorm_hover.png);
 }
 
-#remove
+#admin
 {
-	background: url(img/delete.png);
+	background: url(img/admin.png);
 }
-#remove:hover
+#admin:hover
 {
-	background: url(img/delete_hover.png);
+	background: url(img/admin_hover.png);
 }
 
 #div2

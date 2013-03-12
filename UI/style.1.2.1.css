@@ -561,6 +561,8 @@ ol.unstyled,
   outline: 2px #ccc solid !important;
 }
 .input-control > input[type=text],
+.input-control > input[type=number],
+.input-control > input[type=date],
 .input-control > input[type=email],
 .input-control > input[type=url],
 .input-control > input[type=phone],
@@ -577,6 +579,8 @@ ol.unstyled,
   position: relative;
 }
 .input-control > input[type=text]:disabled,
+.input-control > input[type=number]:disabled,
+.input-control > input[type=date]:disabled,
 .input-control > input[type=email]:disabled,
 .input-control > input[type=url]:disabled,
 .input-control > input[type=phone]:disabled,
@@ -586,6 +590,8 @@ ol.unstyled,
   background-color: #eaeaea;
 }
 .input-control > input[type=text]:focus,
+.input-control > input[type=number]:focus,
+.input-control > input[type=date]:focus,
 .input-control > input[type=email]:focus,
 .input-control > input[type=url]:focus,
 .input-control > input[type=phone]:focus,
@@ -595,6 +601,8 @@ ol.unstyled,
   border-color: #000;
 }
 .input-control > input[type=text]::-ms-clear,
+.input-control > input[type=number]::-ms-clear,
+.input-control > input[type=date]::-ms-clear,
 .input-control > input[type=email]::-ms-clear,
 .input-control > input[type=url]::-ms-clear,
 .input-control > input[type=phone]::-ms-clear {
