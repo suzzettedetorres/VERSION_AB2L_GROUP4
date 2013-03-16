@@ -1,0 +1,236 @@
+@charset "utf-8";
+/* CSS Document */
+
+html
+{
+	margin: 0px;
+	padding: 0px;
+}
+
+body { 
+	background: url(img/multicolor.png) center fixed no-repeat  #eff4ff;
+	color: #eff4ff;
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+	width:1345px;
+	/*border: #000 thin solid;*/
+}
+
+#title{
+	/*border: #000 thin solid;*/
+	margin:0px;
+	font-size: 18px;
+	font-family: "Segoe UI", "Segoe UI Light", "Segoe UI Semibold", "Segoe Print", "Segoe Script",iconFont;
+}
+
+
+
+/*LOGIN PAGE*/
+
+#login{
+	/*border: #30F thin solid;*/
+	margin: 13% 27%;
+	padding: 0px;
+	width:650px;
+	height:250px;
+}
+
+#adminPic{
+	border: #FFF medium solid;
+	margin:0 5px;
+	height:194px;
+	float:left;
+}
+
+#loginFo
+{
+	/*border: #0C0 thin solid;*/
+	width:400px;
+	height:inherit;
+	float:left;
+}
+
+#unamePass
+{
+	/*border: #0C0 thin solid;*/
+	margin: 5px;
+	width:250px;
+	height:inherit;
+	float:left;
+}
+
+.inputUP
+{
+	background:#CCC;
+	height: 20px;
+}
+
+#submit
+{
+	/*border: #0C0 thin solid;*/
+	margin:15px 0px;
+	width:100px;
+	height:auto;
+	float:right;
+}
+
+
+/*MAIN PAGE*/
+#navigation
+{
+	/*border: #0C0 thin solid;*/
+	margin: 15px 5px 5px 100px;
+	padding:0px;
+	float:left;
+	width:490px;
+}
+
+#div1
+{
+	/*border: #F9C thin solid;*/
+	margin: 0px;
+	padding:0px;
+	width:320px;
+	height:315px;
+	float:left;
+}
+
+#logOut
+{
+	background: url(img/logOUT.png);
+}
+#logOut:hover
+{
+	background: url(img/logout_hover.png);
+}
+
+#addApplicant
+{
+	background: url(img/addApp.png);
+}
+#addApplicant:hover
+{
+	background: url(img/addApp_hover.png);
+}
+
+#genReport
+{
+	background: url(img/genReport.png);
+}
+#genReport:hover
+{
+	background: url(img/genReport_hover.png);
+}
+
+#sendEmail
+{
+	background: url(img/email.png);
+}
+#sendEmail:hover
+{
+	background: url(img/email_hover.png);
+}
+
+#clocktile
+{
+	background:url(img/sample.png);
+}
+#clock
+{
+	/*border: #FF0 thin solid;*/
+	font-size: 40px;
+	margin:195px 5px;
+	float:left;
+}
+
+#manageResident
+{
+	background: url(img/manageResident.png);
+}
+#manageResident:hover
+{
+	background: url(img/manageResident_hover.png);
+}
+
+#room
+{
+	background: url(img/manageDorm.png);
+}
+#room:hover
+{
+	background: url(img/manageDorm_hover.png);
+}
+
+#admin
+{
+	background: url(img/admin.png);
+}
+#admin:hover
+{
+	background: url(img/admin_hover.png);
+}
+
+#div2
+{
+	/*border: #FF0 thin solid;*/	
+	margin: 0px;
+	padding:0px;
+	width:150px;
+	height:315px;
+	float:left;
+}
+
+#Main
+{
+	/*border: #FFF thin solid;*/
+	margin: 35px 0px;
+	padding:0px;	
+	width: 750px;
+	float:right;
+}
+
+#slide
+{
+	/*border: #FFF thin solid;*/
+	margin: 0px;
+	padding:0px;
+	height:350px;
+	width:inherit;
+	float:left;
+	position: static;
+}
+
+#titulo
+{
+	/*border: #FFF thin solid;*/
+	margin:10px;
+	padding:5px;
+	float:left;
+	position: static;
+}
+
+#banner
+{
+	background: no-repeat fixed center url(img/m2.png);
+	color: #eff4ff;
+	margin: 0px;
+	padding:25px;
+	width:650px;
+	float:right;
+	font-size:14px;
+	font-family: "Segoe UI", "Segoe UI Light", "Segoe UI Semibold", "Segoe Print", "Segoe Script",iconFont;
+	position: relative;
+}
+
+.desc2{
+	position:absolute;
+	top:0px;
+	left:45%;
+	z-index:1;
+	padding:10px;
+	text-align:center;
+	color:#FFF;
+}
+
+
